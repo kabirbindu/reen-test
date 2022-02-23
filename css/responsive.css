@@ -1,0 +1,205 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px){
+/***********code start************/
+
+/*global code start*/
+.title h2{
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+/*global code end*/
+.navbar-light .navbar-toggler {
+    color: #506a85;
+    border-color: #506a85;
+    background: #506a85;
+}
+.main-menu .fa-search{
+	 margin-left: 15px;
+}
+.who-we{
+  padding: 60px 0px 40px;
+}
+.who-we .title p{
+  padding: 0px 10px;
+}
+.who-we .card{
+    text-align: center;
+}
+.latest-work{
+  padding: 60px 0px 60px;
+}
+.latest-work .title{
+  margin-bottom: 15px;
+}
+.get-in-touch{
+  padding: 60px 0px 40px;
+}
+.get-in-touch .title p{
+  padding: 0px 5px;
+}
+.top-footer{
+  padding: 60px 0px;
+  text-align: center;
+}
+.top-footer .widget h4{
+  padding-top: 20px;
+}
+.bottom-footer {
+  text-align: center;
+}
+
+/***********code end************/
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px){
+/***********code start************/
+
+/*global code start*/
+.title h2{
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+/*global code end*/
+.navbar-light .navbar-toggler {
+    color: #506a85;
+    border-color: #506a85;
+    background: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    margin: 0px 3px;
+}
+.who-we{
+  padding: 60px 0px 40px;
+}
+.who-we .title p{
+  padding: 0px 10px;
+}
+.who-we .card{
+    text-align: center;
+}
+
+.who-we .card .card-body {
+    padding: 1rem 7px;
+}
+.latest-work{
+  padding: 60px 0px 60px;
+}
+.latest-work .title{
+  margin-bottom: 15px;
+}
+.get-in-touch{
+  padding: 60px 0px 40px;
+}
+.get-in-touch .title p{
+  padding: 0px 5px;
+}
+.top-footer{
+  padding: 60px 0px;
+  text-align: center;
+}
+.top-footer .widget h4{
+  padding-top: 20px;
+}
+.bottom-footer {
+  text-align: center;
+}
+
+
+/***********code end************/
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px){
+/***********code start************/
+
+/*global code start*/
+.title h2{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+/*global code end*/
+
+.main-menu .navbar-light .navbar-nav .nav-link {
+    margin: 0px 8px;
+}
+.who-we{
+  padding: 70px 0px 50px;
+}
+.who-we .title p{
+  padding: 0px 10px;
+}
+.who-we .card .card-body {
+    padding: 1rem 10px;
+}
+.latest-work{
+  padding: 70px 0px 70px;
+}
+.latest-work .title{
+  margin-bottom: 20px;
+}
+.get-in-touch{
+  padding: 70px 0px 50px;
+}
+.get-in-touch .title p{
+  padding: 0px 50px;
+}
+.top-footer{
+  padding: 70px 0px;
+  /*text-align: center;*/
+}
+/*.top-footer .widget h4{
+  padding-top: 20px;
+}*/
+
+
+
+/***********code end************/
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1506px
+*/
+@media (min-width: 1025px) and (max-width: 1507px){
+/***********code start************/
+
+/*global code start*/
+.title h2{
+  font-size: 50px;
+}
+/*global code end*/
+
+.who-we{
+  padding: 70px 0px 50px;
+}
+.who-we .title p{
+  padding: 0px 100px;
+}
+.latest-work{
+  padding: 70px 0px 70px;
+}
+.get-in-touch{
+  padding: 70px 0px 50px;
+}
+.get-in-touch .title p{
+  padding: 0px 100px;
+}
+.top-footer{
+  padding: 70px 0px;
+  /*text-align: center;*/
+}
+/*.top-footer .widget h4{
+  padding-top: 20px;
+}*/
+
+
+
+/***********code end************/
+}

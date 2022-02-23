@@ -1,0 +1,358 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/***************
+** Global title code start
+***************/
+
+.title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.title h2{
+	font-size: 52px;
+	font-weight: 700;
+	color: #506a85;
+}
+.title p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #a3b1bf;
+}
+/***************
+** Global title code end
+***************/
+.header{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 5px 0px;
+	background: #f5f7fa;
+}
+.info-details{
+	width: 100%;
+}
+.info-details ul{
+	width: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.info-details ul li{
+	list-style: none;
+	display: inline-block;
+}
+.info-details ul li a{
+	font-size: 14px;
+	font-weight: 500;
+	color: #506a85;
+	margin-right: 10px;
+}
+.info-details ul li a .fa{
+	margin-right: 5px;
+}
+.social-icons{
+	margin: 0px;
+	width: 100%;
+	display: block;
+	text-align: right;
+	padding: 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	font-size: 14px;
+	font-weight: 700;
+	color: #506a85;
+	margin-left: 10px;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	color: #00bc9c;
+}
+.navbar-wrapper {
+  margin-top: 0px;
+  position: relative;
+  z-index: 15;
+}
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgb(0, 0, 0, .8);
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+	color: #00bc9c;
+	/*font-weight: 700;
+	text-transform: uppercase;*/
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 13px;
+
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+}
+.main-menu .fa-search{
+	 color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+}
+.slider{
+	width: 100%;
+}
+.slider .carousel-caption {
+    bottom: 33%;
+}
+.slider .carousel-caption h2{
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #a3b1bf;
+}
+.slider .carousel-caption .btn-info{
+	padding: 12px 30px;
+	font-size: 14px;
+	font-weight: 800;
+	margin: 40px 0px 0px;
+	color: #fff;
+	background: #00bc9c;
+	border: 2px solid #00bc9c;
+	border-radius: 3px;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.slider .carousel-caption .btn-info:hover, .slider .carousel-caption .btn-info:focus{
+	color: #00bc9c;
+	background: transparent;
+	border: 2px solid #00bc9c;
+}
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we .title p{
+	padding: 0px 300px;
+}
+.who-we .card {
+	border: none;
+}
+.who-we .card img{
+	margin-top: 18px;
+}
+.who-we .card .card-body {
+    padding: 1rem 25px;
+}
+.who-we .card .card-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #506a85;
+}
+.who-we .card .card-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+}
+.latest-work{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.latest-work .card{
+	text-align: center;
+	margin-top: 30px;
+}
+.latest-work .card .card-title{
+	font-size: 20px;
+	font-weight: 600;
+	color: #506a85;
+}
+.latest-work .card .card-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+}
+
+
+.latest-work .owl-carousel{
+	width: 100%;
+	margin-top: 50px;
+}
+.latest-work .owl-theme .owl-dots .owl-dot.active span{
+	background: #00bc9c;
+}
+
+.latest-work .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+/*get-in-touch start*/
+.get-in-touch{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.get-in-touch .title h2{
+	font-weight: 600;
+}
+.get-in-touch .title p{
+	padding: 0px 300px;
+}
+.get-in-touch .btn-info{
+	padding: 12px 30px;
+	margin: 30px 0px 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid #00bc9c;
+	background: #00bc9c;
+	transition: 1s;
+}
+.get-in-touch .btn-info:hover{
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	background: transparent;
+}
+/*get-in-touch end*/
+
+/*footer code start*/
+.footer{
+	width: 100%;
+}
+.top-footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.widget{
+	width: 100%;
+}
+.widget h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.widget .fimg{
+	margin-bottom: 25px;
+}
+
+.widget p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #a3b1bf;
+	margin-bottom: 25px;
+}
+.widget p a{
+	font-size: 15px;
+	font-weight: 700;
+	color: #a3b1bf;
+}
+.widget p a .fa{
+	margin-left: 5px;
+}
+.widget .card{
+	border: none;
+	border-radius: 0px;
+}
+.widget .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.widget .address .fa{
+	font-size: 14px;
+	margin-right: 10px;
+}
+.main-form{
+	width: 100%;
+	position: relative;
+}
+.main-form .form-control{
+	height: auto !important;
+	padding: 11px;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	font-size: 12px;
+	color: #828e99;
+}
+.main-form .form-control:focus{
+	box-shadow: none !important;
+}
+.main-form .btn-primary {
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 6px 13px;
+    font-weight: 700;
+}
+.main-form .btn-primary:hover {
+    color: #00bc9c;
+    background-color: transparent;
+    border-color: #00bc9c; 
+}  
+.bottom-footer{
+	width: 100%;
+	background: #283645;
+	padding: 15px 0px;
+}
+.bottom-footer .bfoot{
+	color: #616f7d;
+}
+
+/*scroll to top btn code start*/
+.top-scroll{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.top-scroll .btn-info{
+	color: #949ba2;
+    background-color: #3c5065;
+    border-color: #3c5065;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+/*scroll to top btn code end*/
